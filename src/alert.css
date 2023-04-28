@@ -1,0 +1,42 @@
+.alert,
+.alert-success,
+.alert-danger,
+.alert-warning,
+.alert-info {
+    border: 1px solid #bdbdbd;
+    color: #212121;
+    background-color: #eeeeee;
+    padding: 15px;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.alert-success {
+    border: 1px solid #9ccc65;
+    color: #33691e;
+    background-color: #c5e1a5;
+    padding: 15px;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.alert-danger {
+    border: 1px solid #EF5350;
+    color: #B71C1C;
+    background-color: #EF9A9A;
+    padding: 15px;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin: 15px 0;
+    text-align: center;
+}
