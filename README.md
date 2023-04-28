@@ -15,3 +15,8 @@ $dbname = "database_name";
 
 
 2. Prepare PHP server
+3. Make database tables
+~~~ SQL
+CREATE TABLE class (class_id int not null auto_increment primary key, classname varchar(100) not null);
+CREATE TABLE content (content_id int not null auto_increment primary key, class_id int not null, content varchar(300) not null);
+~~~
