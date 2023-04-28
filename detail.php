@@ -68,11 +68,11 @@ try{
     <tbody>
         <?php foreach($rows as $row): ?> 
             <tr>
-                <td class="text-left"><?=htmlspecialchars($row['content'],ENT_QUOTES,'UTF-8')?></td>
+                <td class="text-start text-break"><?=htmlspecialchars($row['content'],ENT_QUOTES,'UTF-8')?></td>
                 <td>
                     <form action="del.php" method="get">
                             <input type="hidden" name="content_id" value="<?=$row['content_id']?>">
-                            <button type="submit" value="detail" class="btn btn-light btn-rounded"><i class="fas fa-trash-can"></i></button>
+                            <button type="submit" value="detail" class="btn btn-link btn-sm px-3" data-ripple-color="dark"><i class="fas fa-trash-can"></i></button>
                     </form>
                 </td>
             </tr>
