@@ -89,7 +89,7 @@ try{
 </div>
 <div class="fixed-bottom m-4">
     <div class="position-absolute bottom-0 start-0">
-        <a class="btn btn-secondary btn-floating btn-lg" href="regiclass.php">
+        <a class="btn btn-secondary btn-floating btn-lg" href="index.php">
             <i class="fas fa-angle-left"></i>
         </a>
     </div>
