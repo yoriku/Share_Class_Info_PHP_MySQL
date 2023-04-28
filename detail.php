@@ -64,11 +64,11 @@ try{
 <?php endif; ?>
 
 
-<table class="table text-left">
+<table class="table">
     <tbody>
         <?php foreach($rows as $row): ?> 
             <tr>
-                <td><?=htmlspecialchars($row['content'],ENT_QUOTES,'UTF-8')?></td>
+                <td class="text-left"><?=htmlspecialchars($row['content'],ENT_QUOTES,'UTF-8')?></td>
                 <td>
                     <form action="del.php" method="get">
                             <input type="hidden" name="content_id" value="<?=$row['content_id']?>">

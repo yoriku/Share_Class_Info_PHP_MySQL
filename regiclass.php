@@ -53,11 +53,11 @@ if(isset($_POST['regi'])) {
 <div class="container text-center">
     <br>
     <h1>新しく登録</h1>
-    <div class="card mb-6">
+    <div class="card">
         <div class="card-body">
             <h3 class="card-title">授業を登録</h3>
             <form method="post">
-                <div class="form-outline mb-6">
+                <div class="form-outline my-3">
                     <input type="text" name="classname" id="formclass" class="form-control" required>
                     <label class="form-label" for="formclass">授業名</label>
                 </div>
