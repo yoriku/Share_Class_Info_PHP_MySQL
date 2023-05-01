@@ -53,7 +53,7 @@ try{
 <div class="row">
 <?php foreach((array)$rows as $row): ?>
     <div class="col-md-4">
-        <div class="card text-center mb-6">
+        <div class="card text-center mb-3">
             <div class="card-body">
                 <h3 class="card-title"><?=htmlspecialchars($row['classname'],ENT_QUOTES,'UTF-8')?></h3>
                 <form action="detail.php" method="get">

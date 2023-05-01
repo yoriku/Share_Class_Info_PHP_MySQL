@@ -64,15 +64,15 @@ try{
 <?php endif; ?>
 
 
-<table class="table text-left">
+<table class="table">
     <tbody>
         <?php foreach($rows as $row): ?> 
             <tr>
-                <td><?=htmlspecialchars($row['content'],ENT_QUOTES,'UTF-8')?></td>
+                <td class="text-start text-break"><?=htmlspecialchars($row['content'],ENT_QUOTES,'UTF-8')?></td>
                 <td>
                     <form action="del.php" method="get">
                             <input type="hidden" name="content_id" value="<?=$row['content_id']?>">
-                            <button type="submit" value="detail" class="btn btn-light btn-rounded"><i class="fas fa-trash-can"></i></button>
+                            <button type="submit" value="detail" class="btn btn-link btn-sm px-3" data-ripple-color="dark"><i class="fas fa-trash-can"></i></button>
                     </form>
                 </td>
             </tr>
@@ -89,7 +89,7 @@ try{
 </div>
 <div class="fixed-bottom m-4">
     <div class="position-absolute bottom-0 start-0">
-        <a class="btn btn-secondary btn-floating btn-lg" href="regiclass.php">
+        <a class="btn btn-secondary btn-floating btn-lg" href="index.php">
             <i class="fas fa-angle-left"></i>
         </a>
     </div>
