@@ -3,9 +3,9 @@ Created to exchange class information under the COVID19 epidemic
 
 # Getting Start
 
-1. Prepare core dir and config.php
+1. Prepare core dir and config.php. Have to set on core/config.php and .htaccess
 
-For Example 
+For Example config.php
 ~~~ PHP
 $host = "localhost";
 $user = "user";
@@ -14,9 +14,10 @@ $dbname = "database_name";
 ~~~
 
 
-2. Prepare PHP server
+2. Prepare PHP and MySQL server
 3. Make database tables
 ~~~ SQL
 CREATE TABLE class (class_id int not null auto_increment primary key, classname varchar(100) not null);
 CREATE TABLE content (content_id int not null auto_increment primary key, class_id int not null, content varchar(300) not null);
 ~~~
+4. Upload these programs
