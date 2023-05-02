@@ -2,7 +2,7 @@
 
 ## Appendix.
 
-This program was created with the goal of smoothly sharing class information under the influence of COVID19 in the spring of 2020. The concept of the service is based on a web application with a member registration function created the previous year. Since the development was completed in the summer of the same year, the UI has been cleaned up and released to the public this time.
+This program was created with the goal of smoothly sharing class information under the influence of COVID19 in the spring of 2020. The concept of the service is based on a web application with a member registration function created the previous year. Since the development was completed in the summer of the same year, the UI has been cleaned up and released to the public this time.  
 （このプログラムは，2020年の春にCOVID19の影響下で円滑に授業情報を共有することを目的に作成したものです．サービスの構想は前年に作成した会員登録機能を備えたWebアプリを基にしています．開発自体は同年夏ごろに終了したため，今回はUIをきれいにして公開しています．）
 
 # Getting Start
